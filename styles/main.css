@@ -206,6 +206,9 @@ body {
 
 .purchase-info {
   width: 100%;
+  margin-top: 1rem;
+  padding: 0;
+  vertical-align: middle;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -235,6 +238,10 @@ body {
   border-radius: 100vw;
 }
 
+.creator-attribution {
+  margin-top: 2em;
+}
+
 .creator-attribution p {
   margin: 0;
 }
@@ -245,13 +252,80 @@ hr {
   border: 1px solid var(--clr-line);
 }
 
+.nft-cost,
+.nft-time-left {
+  margin: 1rem 0;
+}
+
+.nft-cost p,
+.nft-time-left p,
+.creator-attribution p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
 .nft-cost img,
 .nft-time-left img,
 .creator-attribution img {
   display: inline-block;
-  margin-right: 0.5em;
+  margin-right: 0.25em;
+  max-height: 100%;
   vertical-align: middle;
-  height: 100%;
+}
+
+@media (max-width: 450px) {
+  .creator-attribution {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .purchase-info {
+    font-size: 0.7rem;
+  }
+  .creator-attribution {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .nft-cost img,
+  .nft-time-left img,
+  .creator-attribution img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nft-cost img,
+  .nft-time-left img {
+    height: 1rem;
+  }
+
+  .nft-cost p,
+  .nft-time-left p,
+  .creator-attribution p {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 225px) {
+  .purchase-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .nft-info {
+    font-size: 0.7rem;
+  }
+
+  .card-container {
+    padding: 0;
+    overflow: scroll;
+  }
 }
 
 @media (min-width: 600px) {
