@@ -126,12 +126,14 @@ body {
   color: white;
 }
 
-.nft-info h2:hover {
+.nft-info h2:hover,
+.nft-info h2:focus {
   color: var(--clr-primary-cyan);
   cursor: pointer;
 }
 
-.creator:hover {
+.creator:hover,
+.creator:focus {
   color: var(--clr-primary-cyan);
   cursor: pointer;
 }
