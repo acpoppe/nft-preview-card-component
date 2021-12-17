@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](https://acpoppe.github.io/nft-preview-card-component/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-wnpRYfKh8](https://www.frontendmentor.io/solutions/nft-preview-card-wnpRYfKh8)
+- Live Site URL: [https://acpoppe.github.io/nft-preview-card-component/](https://acpoppe.github.io/nft-preview-card-component/)
 
 ## My process
 
